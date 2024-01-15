@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="./src/style.css">
+  <title>WeServe | Tailwind</title>
+
+  <!-- Fonts Integrated -->
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-background font-['Poppins']">
+  <!-- Navbar -->
+  <header>
+    <nav class="flex flex-row items-center justify-between mx-auto mt-10 max-w-7xl">
+      <img src="./assets/logo.svg" alt="Logo" />
+
+      <ul class="flex flex-row gap-x-[30px]">
+        <li>
+          <a href="#" class="text-base text-indigo-950 hover:text-violet-700">Products</a>
+        </li>
+        <li class="flex flex-row items-center gap-x-1">
+          <a href="#" class="text-base text-indigo-950 hover:text-violet-700">Services</a>
+          <img src="./assets/arrow_down.svg" alt="icon arrow down" class="arrow_down" />
+        </li>
+        <li>
+          <a href="#" class="text-base text-indigo-950 hover:text-violet-700">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class="text-base text-indigo-950 hover:text-violet-700">Testimonials</a>
+        </li>
+        <li>
+          <a href="#" class="text-base text-indigo-950 hover:text-violet-700">Blog</a>
+        </li>
+      </ul>
+
+      <div class="flex flex-row items-center gap-x-3">
+        <div class="flex items-center bg-white rounded-full p-[12px]">
+          <img src="./assets/checkout.svg" alt="Checkout Icon">
+        </div>
+        <a href="#" class="px-8 py-3 text-base font-semibold text-white rounded-full hover:bg-violet-700 bg-indigo-950">
+          Sign In
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="mx-auto hero max-w-7xl py-[100px]">
+    <div class="flex flex-row items-center justify-between">
+      <div class="flex flex-col gap-y-10">
+        <div class="flex flex-row px-3 py-2 bg-white rounded-full w-fit gap-x-2 small-badge">
+          <img src="./assets/browsing.svg" alt="browsing icon">
+          <p class="text-base font-semibold text-indigo-950">We host more than 120,000 websites</p>
+        </div>
+
+        <div class="gap-y-[10px]">
+          <h1 class="text-indigo-950 font-['Clash_Display'] text-[70px] leading-[80px]">
+            Grow Online <br />Business Faster.
+          </h1>
+          <p class="text-base leading-loose text-gray-500">
+            We provide a variety of servers to grow your users <br />
+            acquisition much user-friendly and boosting up sales.
+          </p>
+        </div>
+
+        <div class="flex flex-row items-center gap-x-5">
+          <a href="#"
+            class="px-10 py-4 text-lg font-semibold text-white rounded-full hover:bg-indigo-950 bg-violet-700">
+            Try Free Trial
+          </a>
+          <a href="#" class="flex items-center gap-x-2 text-violet-700">
+            <img src="./assets/schedule.svg" alt="schedule icon"> Schedule a Demo
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-row items-center">
+        <img src="./assets/hero_img.png" alt="hero image" class="h-[550px]" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="max-w-5xl py-[100px] mx-auto partners">
+    <div class="flex flex-row items-center justify-between">
+      <img src="./assets/partners-1.svg" alt="partners logo">
+      <img src="./assets/partners-2.svg" alt="partners logo">
+      <img src="./assets/partners-3.svg" alt="partners logo">
+      <img src="./assets/partners-4.svg" alt="partners logo">
+      <img src="./assets/partners-5.svg" alt="partners logo">
+    </div>
+  </section>
+
+  <!-- Best Choice -->
+  <section class="mx-auto max-w-7xl features py-[100px]">
+    <h3 class="text-indigo-950 font-['Clash_Display'] text-5xl text-center">Your Best Choice</h3>
+
+    <div class="grid grid-cols-4 mt-8 gap-x-8">
+      <div class="flex flex-col items-start px-6 bg-white py-[30px] my-card rounded-2xl gap-y-[30px]">
+        <img src="./assets/extra-layers.svg" alt="icon" />
+        <div>
+          <h3 class="text-[22px] font-bold mb-1 text-indigo-950">Extra Layers</h3>
+          <p class="text-[#5D5D7C] text-base leading-relaxed">Making your project more secure avoiding DDoS</p>
+        </div>
+        <a href="#" class="text-base font-semibold text-violet-700">Learn more</a>
+      </div>
+      <div class="flex flex-col items-start px-6 bg-white py-[30px] my-card rounded-2xl gap-y-[30px]">
+        <img src="./assets/customizable.svg" alt="icon" />
+        <div>
+          <h3 class="text-[22px] font-bold mb-1 text-indigo-950">Customizable</h3>
+          <p class="text-[#5D5D7C] text-base leading-relaxed">Only install what your business needs to grow</p>
+        </div>
+        <a href="#" class="text-base font-semibold text-violet-700">Learn more</a>
+      </div>
+      <div class="relative flex flex-col px-6 bg-[#080C2E] py-[30px] my-card rounded-2xl">
+        <div class="absolute top-3 right-5">
+          <img src="./assets/white_box_blur.svg" alt="filter shadow" class="">
+        </div>
+
+        <div class="z-50 gap-y-[30px] flex flex-col items-start">
+          <img src="./assets/ai_automation.svg" alt="icon" />
+          <div>
+            <h3 class="text-[22px] font-bold mb-1 text-white">AI Automation</h3>
+            <p class="text-[#8D90A8] text-base leading-relaxed">Decide the business flow based on latest reports</p>
+          </div>
+          <a href="#" class="text-base font-semibold text-white">Learn more</a>
+        </div>
+      </div>
+      <div class="flex flex-col items-start px-6 bg-white py-[30px] my-card rounded-2xl gap-y-[30px]">
+        <img src="./assets/auto_scaling.svg" alt="icon" />
+        <div>
+          <h3 class="text-[22px] font-bold mb-1 text-indigo-950">Auto Scaling</h3>
+          <p class="text-[#5D5D7C] text-base leading-relaxed">Have a long weekend without worrying any loss</p>
+        </div>
+        <a href="#" class="text-base font-semibold text-violet-700">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
