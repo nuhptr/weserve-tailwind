@@ -4,15 +4,5 @@
 @tailwind variants;
 
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
-}
-
-.arrow_down {
-    stroke-width: 2;
-}
-
-.arrow_down:hover {
-    fill: #640ef1;
 }
